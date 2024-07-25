@@ -1,55 +1,33 @@
-# Lending Club Case Study
 
-## Goals of data analysis:  
+# Bike-sharing-assignment
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
-``` 
-This company is the largest online loan marketplace, facilitating personal
-loans,business loans, and financing of medical procedures. Borrowers can 
-easily access lower interest rate loans through a fast online interface. 
+# General Information
+   A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+   
+### The company wants to know:
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands
 
-Lending loans to ‘risky’ applicants is the largest source of financial loss
-(called credit loss). The credit loss is the amount of money lost by the lender 
-when the borrower refusesto pay or runs away with the money owed.
-In other words, borrowers who default cause the largest amount of loss to the
-lenders.
-In this case, the customers labelled as 'charged-off' are the 'defaulters'.
-If one is able to identify these risky loan applicants, then such loans can be
-reduced thereby cutting down the amount of credit loss. Identification of
-such applicants using EDA is the aim of this case study.
+## Technologies Used
+- numpy
+- pandas
+- matplotlib
+- plotly
+- seaborn
+- statsmodels
+- sklearn
+- scipy   
 
-The main objective is to be able to identify these risky loan applicants, 
-then such loans can be reduced thereby cutting down the amount of credit loss. 
-Identification of such applicants using EDA is the aim of this case study.   
+## Conclusion
+Significant variables to predict the demand for shared bikes
 
-Perform an analysis to understand the driving factors (or driver variables)
-behind loan default, i.e.the variables which are strong indicators of default.  
-The company can utilise this knowledge for its portfolio and risk assessment.
-
-```
-
-#### Step 1: Reading the CSV file and Cleaning the Data
-#### Step 2: Analyze and Standardize the data
-#### Step 3: Univariate Analysis and Segmented Univariate Analysis
-#### Step 4: Bivaraiate/Multivariate Analysis
-#### Step 5: Observations and Conclusion  
-
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-
-### Contributors
-- Arpita Bandyopadhyay
-- Raja Dudam
-
-
-
-
-
-
-
-##### Developed as part of the Exloratory Data Analysis Module required for Post Graduate Diploma in Machine Learning and AI - IIIT,Bangalore.
-
+- holiday
+- temp
+- hum
+- windspeed
+- Season
+- months(January, July, September, November, December)
+- Year (2019)
+- Sunday
+- weathersit( Light Snow, Mist + Cloudy)
